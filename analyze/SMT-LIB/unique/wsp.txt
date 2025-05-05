@@ -1,0 +1,42 @@
+Loaded 41075 benchmarks from benchmarks_remaining file
+Number of benchmarks: 410750
+Number of unique benchmarks: 41075
+
+--- Average Number of Unique Outputs by Division ---
+Division                        | Avg Unique | Avg Norm Time | Max Norm Time
+-------------------------------|------------|--------------|-------------
+Arith                          |       1.02 |       0.0010 |      0.1720
+BitVec                         |       1.03 |       0.0139 |      3.5230
+Equality                       |       2.79 |       0.0075 |      0.1020
+Equality+LinearArith           |       5.35 |       0.0030 |      0.0860
+Equality+MachineArith          |       1.22 |       0.0295 |      3.6140
+Equality+NonLinearArith        |       1.64 |       0.0080 |      0.4980
+FPArith                        |       1.03 |       0.0000 |      0.0010
+QF_Bitvec                      |       4.78 |       0.7248 |     38.7570
+QF_Equality                    |       2.16 |       0.0306 |      1.0710
+QF_Equality+Bitvec             |       4.44 |       0.1222 |     13.3070
+QF_Equality+LinearArith        |       3.38 |       0.0590 |      6.6460
+QF_Equality+NonLinearArith     |       6.22 |       0.2908 |     29.6690
+QF_FPArith                     |       2.52 |       0.0002 |      0.0290
+QF_LinearIntArith              |       4.21 |       0.2728 |     37.2840
+QF_LinearRealArith             |       3.26 |       0.2230 |     30.3610
+QF_NonLinearIntArith           |       2.64 |       0.0752 |      4.5400
+QF_NonLinearRealArith          |       1.67 |       0.0620 |     10.5110
+QF_Strings                     |       2.45 |       0.0004 |      0.0190
+
+--- Histogram of Unique Outputs ---
+Number of Unique Outputs | Number of Benchmarks
+-------------------------|--------------------
+                        1 | 25271
+                        2 | 3986
+                        3 | 397
+                        4 | 1273
+                        5 | 453
+                        6 | 621
+                        7 | 295
+                        8 | 276
+                        9 | 454
+                       10 | 8049
+
+Histogram dictionary:
+{2: 3986, 4: 1273, 8: 276, 6: 621, 3: 397, 1: 25271, 7: 295, 5: 453, 10: 8049, 9: 454}

@@ -1,0 +1,8 @@
+BitVec: 5
+Equality+MachineArith: 2
+QF_Bitvec: 42
+QF_Equality+Bitvec: 20
+QF_Equality+LinearArith: 12
+QF_LinearIntArith: 6
+QF_LinearRealArith: 3
+QF_NonLinearRealArith: 1

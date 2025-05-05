@@ -1,0 +1,25 @@
+Loaded 1755 benchmarks from benchmarks_remaining file
+Number of benchmarks: 17550
+Number of unique benchmarks: 1755
+
+--- Overall Statistics ---
+Average Unique Outputs: 3.16
+Average Norm Time: 0.0657
+Maximum Norm Time: 4.2050
+
+--- Histogram of Unique Outputs ---
+Number of Unique Outputs | Number of Benchmarks
+-------------------------|--------------------
+                        1 | 1321
+                        2 | 14
+                        3 | 0
+                        4 | 0
+                        5 | 0
+                        6 | 0
+                        7 | 0
+                        8 | 0
+                        9 | 6
+                       10 | 414
+
+Histogram dictionary:
+{1: 1321, 10: 414, 2: 14, 9: 6}

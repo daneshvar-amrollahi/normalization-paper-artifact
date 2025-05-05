@@ -1,0 +1,8 @@
+(set-logic LIA)
+(declare-const x Int)
+(declare-const y Int)
+(declare-const z Int)
+(assert (>= (+ x (* 2 y)) 5))
+(assert (>= (+ y (* 2 x)) 5))
+(assert (<= (+ x (* 3 z)) 5))
+(check-sat)

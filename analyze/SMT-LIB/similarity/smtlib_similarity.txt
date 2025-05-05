@@ -1,0 +1,21 @@
+Total benchmarks in remaining file: 41075
+Number of benchmarks after filtering: 41075
+ division                    avg_sim_mean  avg_sim_min  avg_sim_max 
+ Arith                              99.62        60.00       100.00 
+ BitVec                             99.48        54.29       100.00 
+ Equality                           98.48        14.75       100.00 
+ Equality+LinearArith               86.78         2.46       100.00 
+ Equality+MachineArith              98.18        46.98       100.00 
+ Equality+NonLinearArith            98.48        33.82       100.00 
+ FPArith                            99.61        78.67       100.00 
+ QF_Bitvec                          79.88         0.76       100.00 
+ QF_Equality                        93.24         8.35       100.00 
+ QF_Equality+Bitvec                 74.06         0.30       100.00 
+ QF_Equality+LinearArith            89.38         1.68       100.00 
+ QF_Equality+NonLinearArith         85.08        17.59       100.00 
+ QF_FPArith                         92.30         5.35       100.00 
+ QF_LinearIntArith                  88.67         0.57       100.00 
+ QF_LinearRealArith                 93.86         5.35       100.00 
+ QF_NonLinearIntArith               95.69        36.32       100.00 
+ QF_NonLinearRealArith              97.76        23.90       100.00 
+ QF_Strings                         94.93         8.08       100.00 

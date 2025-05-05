@@ -1,0 +1,42 @@
+Loaded 41075 benchmarks from benchmarks_remaining file
+Number of benchmarks: 410750
+Number of unique benchmarks: 41075
+
+--- Average Number of Unique Outputs by Division ---
+Division                        | Avg Unique
+-------------------------------|------------
+Arith                          |       1.05
+BitVec                         |       1.07
+Equality                       |       8.48
+Equality+LinearArith           |       7.34
+Equality+MachineArith          |       1.25
+Equality+NonLinearArith        |       2.98
+FPArith                        |       1.03
+QF_Bitvec                      |       4.94
+QF_Equality                    |       2.63
+QF_Equality+Bitvec             |       4.49
+QF_Equality+LinearArith        |       3.66
+QF_Equality+NonLinearArith     |       6.73
+QF_FPArith                     |       2.80
+QF_LinearIntArith              |       6.35
+QF_LinearRealArith             |       3.72
+QF_NonLinearIntArith           |       3.04
+QF_NonLinearRealArith          |       1.83
+QF_Strings                     |       2.69
+
+--- Histogram of Unique Outputs ---
+Number of Unique Outputs | Number of Benchmarks
+-------------------------|--------------------
+                        1 | 22024
+                        2 | 2710
+                        3 | 288
+                        4 | 750
+                        5 | 340
+                        6 | 435
+                        7 | 267
+                        8 | 263
+                        9 | 522
+                       10 | 13476
+
+Histogram dictionary:
+{2: 2710, 4: 750, 8: 263, 9: 522, 3: 288, 5: 340, 1: 22024, 7: 267, 6: 435, 10: 13476}

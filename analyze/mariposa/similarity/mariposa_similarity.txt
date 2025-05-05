@@ -1,0 +1,10 @@
+Warning: Could not parse similarity score for s_komodo/1557.3.smt2
+Warning: Could not parse similarity score for s_komodo/1557.4.smt2
+Project         Average    Min        Max        Count     
+-------------------------------------------------------
+d_fvbkv         87.30      78.75      93.70      5170      
+d_komodo        88.28      79.96      94.53      2054      
+d_lvbkv         81.85      68.13      89.16      5334      
+fs_dice         98.75      95.94      99.87      1536      
+fs_vwasm        99.52      96.32      100.00     1755      
+s_komodo        100.00     100.00     100.00     771       
