@@ -1,0 +1,8 @@
+Project         Average   
+-------------------------
+d_fvbkv         0.19      
+d_komodo        0.18      
+d_lvbkv         0.17      
+fs_dice         0.93      
+fs_vwasm        0.01      
+s_komodo        1.09      

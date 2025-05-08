@@ -1,0 +1,10 @@
+Warning : Invalid data for benchmark s_komodo/1557.3.smt2. Skipping.
+Warning : Invalid data for benchmark s_komodo/1557.4.smt2. Skipping.
+Project         Average   
+-------------------------
+d_fvbkv         87.30     
+d_komodo        88.28     
+d_lvbkv         81.85     
+fs_dice         98.75     
+fs_vwasm        99.52     
+s_komodo        100.00    

@@ -20,20 +20,18 @@ def analyze_benchmarks(csv_file):
                     sim_score = float(row['avg_sim'])
                     project_scores[project].append(sim_score)
                 except (ValueError, KeyError):
-                    print(f"Warning: Could not parse similarity score for {row['benchmark']}")
+                    print(f"Warning : Invalid data for benchmark {row['benchmark']}. Skipping.")
+                    pass
     
-    # Calculate and output statistics for each project
-    print(f"{'Project':<15} {'Average':<10} {'Min':<10} {'Max':<10} {'Count':<10}")
-    print("-" * 55)
+    # Calculate and output average for each project
+    print(f"{'Project':<15} {'Average':<10}")
+    print("-" * 25)
     
     for project in sorted(project_scores.keys()):
         scores = project_scores[project]
         if scores:
             avg = sum(scores) / len(scores)
-            min_score = min(scores)
-            max_score = max(scores)
-            count = len(scores)
-            print(f"{project:<15} {avg:<10.2f} {min_score:<10.2f} {max_score:<10.2f} {count:<10}")
+            print(f"{project:<15} {avg:<10.2f}")
         else:
             print(f"{project:<15} No data available")
 
