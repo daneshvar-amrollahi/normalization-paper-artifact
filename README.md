@@ -3,131 +3,143 @@
 ```
 .
 ├── analyze
-│   ├── mariposa
-│   │   ├── overhead
-│   │   │   └── overhread.py
-│   │   ├── par2
-│   │   │   ├── dice
-│   │   │   │   ├── benchmark_set_dice
-│   │   │   │   ├── dice_par2mad_wopass
-│   │   │   │   ├── dice_par2mad_wpass
-│   │   │   │   ├── generate_par2_mad.py
-│   │   │   │   └── README.md
-│   │   │   ├── fvbkv
-│   │   │   │   ├── benchmark_set_fvbkv
-│   │   │   │   ├── fvbkv_par2mad_wopass
-│   │   │   │   ├── fvbkv_par2mad_wpass
-│   │   │   │   ├── generate_par2_mad.py
-│   │   │   │   └── README.md
-│   │   │   ├── komodo
-│   │   │   │   ├── benchmark_set_komodo
-│   │   │   │   ├── generate_par2_mad.py
-│   │   │   │   ├── komodo_par2mad_wopass
-│   │   │   │   └── komodo_par2mad_wpass
-│   │   │   ├── lvbkv
-│   │   │   │   ├── benchmark_set_lvbkv
-│   │   │   │   ├── generate_par2_mad.py
-│   │   │   │   ├── lvbkv_par2mad_wopass
-│   │   │   │   ├── lvbkv_par2mad_wpass
-│   │   │   │   └── README.md
-│   │   │   ├── skomodo
-│   │   │   │   ├── benchmark_set_remaining
-│   │   │   │   ├── benchmark_set_skomodo
-│   │   │   │   ├── exclude
-│   │   │   │   ├── generate_par2_mad.py
-│   │   │   │   ├── README.md
-│   │   │   │   ├── skomodo_par2mad_wopass
-│   │   │   │   └── skomodo_par2mad_wpass
-│   │   │   └── vwasm
-│   │   │       ├── benchmark_set_vwasm
-│   │   │       ├── generate_par2_mad.py
-│   │   │       ├── README.md
-│   │   │       ├── vwasm_par2mad_wopass
-│   │   │       └── vwasm_par2mad_wpass
-│   │   ├── similarity
-│   │   │   ├── mariposa_similarity.txt
-│   │   │   ├── README.md
-│   │   │   └── similarity.py
-│   │   └── unique
-│   │       ├── dice
-│   │       │   ├── dice_uniq.txt
-│   │       │   └── README.md
-│   │       ├── fvbkv
-│   │       │   ├── fvbkv_uniq.txt
-│   │       │   └── README.md
-│   │       ├── komodo
-│   │       │   ├── komodo_uniq.txt
-│   │       │   └── README.md
-│   │       ├── lvbkv
-│   │       │   ├── lvbkv_uniq.txt
-│   │       │   └── README.md
-│   │       ├── skomodo
-│   │       │   ├── README.md
-│   │       │   └── skomodo_uniq.txt
-│   │       ├── unique_analysis.py
-│   │       └── vwasm
-│   │           ├── README.md
-│   │           ├── vwasm_uniq.txt
-│   │           └── vwasm_wosp.txt
-│   └── SMT-LIB
-│       ├── benchmarks
-│       │   ├── all_benchmarks_cnt_by_div.txt
-│       │   ├── benchmark_set_fmcad25
-│       │   ├── benchmarks_exclude
-│       │   ├── benchmarks_remaining
-│       │   ├── divisions.py
-│       │   ├── exclude.sh
-│       │   ├── exlucded_benchmarks_cnt_by_div.txt
-│       │   ├── norm_timeout
-│       │   ├── parser_timeout
-│       │   ├── remove_duplicates.sh
-│       │   └── scrambler_error
-│       ├── overhead
-│       │   ├── overhead.py
-│       │   ├── README.md
-│       │   └── smtlib_overhead
-│       ├── par2
-│       │   ├── cvc5_nopass_par2mad
-│       │   ├── cvc5_wpass_par2mad
-│       │   ├── generate_par2_mad.py
-│       │   ├── README.md
-│       │   ├── z3_nopass_par2mad
-│       │   └── z3_wpass_par2mad
-│       ├── similarity
-│       │   ├── similarity.py
-│       │   └── smtlib_similarity.txt
-│       └── unique
-│           ├── nopass.txt
-│           ├── README.md
-│           ├── unique_analysis.py
-│           ├── wosp.txt
-│           └── wsp.txt
+│   ├── mariposa
+│   │   ├── overhead
+│   │   │   └── overhread.py
+│   │   ├── par2
+│   │   │   ├── dice
+│   │   │   │   ├── benchmark_set_dice
+│   │   │   │   ├── dice_par2mad_wopass
+│   │   │   │   ├── dice_par2mad_wpass
+│   │   │   │   ├── generate_par2_mad.py
+│   │   │   │   └── README.md
+│   │   │   ├── fvbkv
+│   │   │   │   ├── benchmark_set_fvbkv
+│   │   │   │   ├── fvbkv_par2mad_wopass
+│   │   │   │   ├── fvbkv_par2mad_wpass
+│   │   │   │   ├── generate_par2_mad.py
+│   │   │   │   └── README.md
+│   │   │   ├── komodo
+│   │   │   │   ├── benchmark_set_komodo
+│   │   │   │   ├── generate_par2_mad.py
+│   │   │   │   ├── komodo_par2mad_wopass
+│   │   │   │   └── komodo_par2mad_wpass
+│   │   │   ├── lvbkv
+│   │   │   │   ├── benchmark_set_lvbkv
+│   │   │   │   ├── generate_par2_mad.py
+│   │   │   │   ├── lvbkv_par2mad_wopass
+│   │   │   │   ├── lvbkv_par2mad_wpass
+│   │   │   │   └── README.md
+│   │   │   ├── skomodo
+│   │   │   │   ├── benchmark_set_remaining
+│   │   │   │   ├── benchmark_set_skomodo
+│   │   │   │   ├── exclude
+│   │   │   │   ├── generate_par2_mad.py
+│   │   │   │   ├── README.md
+│   │   │   │   ├── skomodo_par2mad_wopass
+│   │   │   │   └── skomodo_par2mad_wpass
+│   │   │   └── vwasm
+│   │   │       ├── benchmark_set_vwasm
+│   │   │       ├── generate_par2_mad.py
+│   │   │       ├── README.md
+│   │   │       ├── vwasm_par2mad_wopass
+│   │   │       └── vwasm_par2mad_wpass
+│   │   ├── similarity
+│   │   │   ├── mariposa_nopass.txt
+│   │   │   ├── mariposa_wosp.txt
+│   │   │   ├── mariposa_wsp.txt
+│   │   │   ├── README.md
+│   │   │   └── similarity.py
+│   │   └── unique
+│   │       ├── dice
+│   │       │   ├── dice_uniq.txt
+│   │       │   └── README.md
+│   │       ├── fvbkv
+│   │       │   ├── fvbkv_uniq.txt
+│   │       │   └── README.md
+│   │       ├── komodo
+│   │       │   ├── komodo_uniq.txt
+│   │       │   └── README.md
+│   │       ├── lvbkv
+│   │       │   ├── lvbkv_uniq.txt
+│   │       │   └── README.md
+│   │       ├── skomodo
+│   │       │   ├── README.md
+│   │       │   └── skomodo_uniq.txt
+│   │       ├── unique_analysis.py
+│   │       └── vwasm
+│   │           ├── README.md
+│   │           ├── vwasm_uniq.txt
+│   │           └── vwasm_wosp.txt
+│   └── SMT-LIB
+│       ├── benchmarks
+│       │   ├── all_benchmarks_cnt_by_div.txt
+│       │   ├── benchmark_set_fmcad25
+│       │   ├── benchmarks_exclude
+│       │   ├── benchmarks_remaining
+│       │   ├── divisions.py
+│       │   ├── exclude.sh
+│       │   ├── exlucded_benchmarks_cnt_by_div.txt
+│       │   ├── norm_timeout
+│       │   ├── parser_timeout
+│       │   ├── remove_duplicates.sh
+│       │   └── scrambler_error
+│       ├── overhead
+│       │   ├── overhead.py
+│       │   ├── README.md
+│       │   └── smtlib_overhead
+│       ├── par2
+│       │   ├── cvc5_nopass_par2mad
+│       │   ├── cvc5_wpass_par2mad
+│       │   ├── generate_par2_mad.py
+│       │   ├── README.md
+│       │   ├── z3_nopass_par2mad
+│       │   └── z3_wpass_par2mad
+│       ├── similarity
+│       │   ├── README.md
+│       │   ├── similarity.py
+│       │   ├── smtlib_nopass.txt
+│       │   ├── smtlib_wosp.txt
+│       │   └── smtlib_wsp.txt
+│       └── unique
+│           ├── nopass.txt
+│           ├── README.md
+│           ├── unique_analysis.py
+│           ├── wosp.txt
+│           └── wsp.txt
 ├── benchmarks
-│   ├── small.smt2
-│   ├── test1_1111.smt2
-│   └── test1_2222.smt2
+│   ├── small.smt2
+│   ├── test1_1111.smt2
+│   └── test1_2222.smt2
 ├── LICENSE
 ├── README.md
 └── run-data
     ├── Mariposa
-    │   ├── dice_wopass.csv
-    │   ├── dice_wsp.csv
-    │   ├── fvbkv_wopass.csv
-    │   ├── fvbkv_wsp.csv
-    │   ├── komodo_wopass.csv
-    │   ├── komodo_wsp.csv
-    │   ├── lvbkv_wopass.csv
-    │   ├── lvbkv_wsp.csv
-    │   ├── skomodo_wopass.csv
-    │   ├── skomodo_wsp.csv
-    │   ├── vwasm_wopass.csv
-    │   └── vwasm_wsp.csv
+    │   ├── dice_wopass.csv
+    │   ├── dice_wsp.csv
+    │   ├── fvbkv_wopass.csv
+    │   ├── fvbkv_wsp.csv
+    │   ├── komodo_wopass.csv
+    │   ├── komodo_wsp.csv
+    │   ├── lvbkv_wopass.csv
+    │   ├── lvbkv_wsp.csv
+    │   ├── similarity
+    │   │   ├── mariposa_nopass.csv
+    │   │   ├── mariposa_wosp.csv
+    │   │   └── mariposa_wsp.csv
+    │   ├── skomodo_wopass.csv
+    │   ├── skomodo_wsp.csv
+    │   ├── vwasm_wopass.csv
+    │   └── vwasm_wsp.csv
     └── SMT-LIB
         ├── cvc5_nopass_smtlib.csv
         ├── cvc5_wsp_smtlib.csv
+        ├── similarity
+        │   ├── smtlib_nopass.csv
+        │   ├── smtlib_wosp.csv
+        │   └── smtlib_wsp.csv
         ├── z3_nopass_smtlib.csv
         └── z3_wsp_smtlib.csv
-
 ```
 
 `run-data/`: Includes the CSV files generated by the runs. The files should be used as inputs to the scripts fonud in `analyze/`.
